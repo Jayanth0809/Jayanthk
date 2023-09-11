@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <header>
+        <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#">HJ Jewellery</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Help
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="tel:+91 7670891398">Contact</a></li>
+                      <li>
+                        <a class="dropdown-item" href="https://api.whatsapp.com/send?phone=917670891398&text=Hello">Message</a>
+                      </li>
+                    </ul>
+                  </li>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <img src="images/jewel.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-5">
+            <h1 class="">HJ Jewellery</h1>
+            <p class="p1">Jewelry stores like Lalithaa Jewellery, Tanishq, etc… are promoting their business through ads 
+              and paid promotions but small stores cannot spend that much on their business. This project is useful for 
+              them to enter into the online business. </p>
+          </div>
+        </div>
+        <div class="row my-5 row-cols-2 row-cols-md-4 g-5">
+          <div class="col">
+            <div class="card">
+              <img src="images/necklace.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Necklaces</h5>
+                <a class="btn btn-dark" href="Necklaces.html" role="button">More</a>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/Earring.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Earrings</h5>
+                <a class="btn btn-dark" href="Earrings.html" role="button">More</a>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/bangle.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bangles</h5>
+                <a class="btn btn-dark" href="Bangles.html" role="button">More</a>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/Bracelet.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bracelets</h5>
+                <a class="btn btn-dark" href="Bracelets.html" role="button">More</a>
+                </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="container">
+          <section class="contact">
+            <div class="contact-heading">
+              <h1>Join Here</h1>
+            </div>
+                <form action="join.php" method="post">
+                  <label for="floatingInput">Email</label>
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingPassword">Password</label>
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <div class="text-center my-4">
+                      <button type="submit" class="btn btn-dark">Join</button>
+                    </div>
+                </form>
+          </section>
+        </div>
+      <div class="container">
+        <div class="text-center">
+          <H2>LIVE UPDATE</H2>
+        </div>
+        <div class="row justify-content-center my-5">
+          <div class="text-center my-2">
+            <a class="btn btn-dark" href="http://goldprice.org" role="button">GOLD PRICE</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-white">&copy; HJ Jewellery</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+      </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>

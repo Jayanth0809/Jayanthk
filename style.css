@@ -1,0 +1,63 @@
+div.card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  div.polaroid {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+.h1{
+    font-family: Georgia;
+  }
+.p1{
+    font-family: arial;
+    font-size: 20px;
+}
+.container{
+  position: relative;
+}
+.contact{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0px;
+}
+.contact-heading{
+  text-align: center;
+  margin: 40px 0px;
+  margin-bottom: 80px;
+}
+.contact-heading h1{
+  font-size: 2.2rem;
+}
+.contact form{
+  width: 600px;
+  display: flex;
+  align-items: last baseline;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact button{
+  align-items: center;
+  justify-content: center;
+}
+.contact-btn{
+  width: 100px;
+  height: 40px;
+  text-size-adjust: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 10px;
+  color: aliceblue;
+  transition: 0.6s ease-in-out;
+  margin-top: 40px;
+  position: center;
+  left: 50% ;
+}
